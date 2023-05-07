@@ -11,7 +11,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.4.47
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.19.7
 	github.com/justinas/alice v1.2.0
-	github.com/rs/xid v1.4.0
+	github.com/rs/xid v1.5.0
 	github.com/rs/zerolog v1.29.1
 )
 
