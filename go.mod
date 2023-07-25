@@ -3,7 +3,7 @@ module github.com/xremming/abborre
 go 1.20
 
 require (
-	github.com/arran4/golang-ical v0.0.0-20230425234049-f69e132f2b0c
+	github.com/arran4/golang-ical v0.1.0
 	github.com/aws/aws-lambda-go v1.41.0
 	github.com/aws/aws-sdk-go-v2 v1.18.1
 	github.com/aws/aws-sdk-go-v2/config v1.18.27
