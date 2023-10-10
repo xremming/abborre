@@ -79,7 +79,7 @@ jobs:
       url: "${{ matrix.url }}"
     steps:
       - uses: "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608" # v4
-      - uses: "aws-actions/configure-aws-credentials@v2"
+      - uses: "aws-actions/configure-aws-credentials@v4"
         with:
           aws-region: "eu-north-1"
           role-to-assume: "arn:aws:iam::865405253382:role/GitHub-Actions"
