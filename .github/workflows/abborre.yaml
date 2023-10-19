@@ -8,7 +8,7 @@ jobs:
     name: "go fmt"
     runs-on: "ubuntu-latest"
     steps:
-      - uses: "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608" # v4
+      - uses: "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11" # v4
       - uses: "actions/setup-go@v4"
         with:
           go-version-file: "./go.mod"
@@ -19,7 +19,7 @@ jobs:
     name: "go vet"
     runs-on: "ubuntu-latest"
     steps:
-      - uses: "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608" # v4
+      - uses: "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11" # v4
       - uses: "actions/setup-go@v4"
         with:
           go-version-file: "./go.mod"
@@ -30,7 +30,7 @@ jobs:
     name: "go test"
     runs-on: "ubuntu-latest"
     steps:
-      - uses: "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608" # v4
+      - uses: "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11" # v4
       - uses: "actions/setup-go@v4"
         with:
           go-version-file: "./go.mod"
@@ -41,7 +41,7 @@ jobs:
     name: "tf fmt"
     runs-on: "ubuntu-latest"
     steps:
-      - uses: "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608" # v4
+      - uses: "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11" # v4
       - uses: "hashicorp/setup-terraform@v2"
 
       - run: "terraform fmt -check -diff -recursive"
@@ -50,7 +50,7 @@ jobs:
     name: "tf validate"
     runs-on: "ubuntu-latest"
     steps:
-      - uses: "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608" # v4
+      - uses: "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11" # v4
       - uses: "hashicorp/setup-terraform@v2"
 
       - run: "terraform init -backend=false"
@@ -78,7 +78,7 @@ jobs:
       name: "${{ matrix.env }}"
       url: "${{ matrix.url }}"
     steps:
-      - uses: "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608" # v4
+      - uses: "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11" # v4
       - uses: "aws-actions/configure-aws-credentials@v4"
         with:
           aws-region: "eu-north-1"
