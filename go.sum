@@ -42,6 +42,8 @@ github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.4.55 h1:kCCBxtJ9htrC
 github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.4.55/go.mod h1:4BapBg/cugFlSsUtB/oVrwWwkttbyHAIPlTalH8rtUY=
 github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.4.69 h1:Cq5yfc4gKynUxUIzLhZJGMl3xM76EHiVYQjWeSdRios=
 github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.4.69/go.mod h1:CJzVdyFAaSntzSajUHvISUzXZfnYKI4JRx1ctDfsk7g=
+github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.4.71 h1:nLwQrLSBpcZq3MtpTUcpBqPwKL5V/uO/iuYMU+STv68=
+github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.4.71/go.mod h1:Vjebi0MUXOcsV9YCE2Jxqrqq3FchwyIMbaIzm5NmrKw=
 github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.13.3 h1:jJPgroehGvjrde3XufFIJUZVK5A2L9a3KwSFgKy9n8w=
 github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.13.3/go.mod h1:4Q0UFP0YJf0NrsEuEYHpM9fTSEVnD16Z3uyEF7J9JGM=
 github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.13.4 h1:LxK/bitrAr4lnh9LnIS6i7zWbCOdMsfzKFBI6LUCS0I=
