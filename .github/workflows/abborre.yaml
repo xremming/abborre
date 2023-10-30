@@ -42,7 +42,7 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
       - uses: "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11" # v4
-      - uses: "hashicorp/setup-terraform@v2"
+      - uses: "hashicorp/setup-terraform@v3"
 
       - run: "terraform fmt -check -diff -recursive"
 
@@ -51,7 +51,7 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
       - uses: "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11" # v4
-      - uses: "hashicorp/setup-terraform@v2"
+      - uses: "hashicorp/setup-terraform@v3"
 
       - run: "terraform init -backend=false"
         working-directory: "./infra"
