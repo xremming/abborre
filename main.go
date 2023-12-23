@@ -60,7 +60,7 @@ func main() {
 	ctx := context.Background()
 
 	var cfg Config
-	err := env.Load(&cfg)
+	err := env.Load(&cfg, nil)
 	if err != nil {
 		panic(err)
 	}
