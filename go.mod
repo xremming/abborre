@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/arran4/golang-ical v0.2.3
-	github.com/aws/aws-lambda-go v1.43.0
+	github.com/aws/aws-lambda-go v1.44.0
 	github.com/aws/aws-sdk-go-v2 v1.24.1
 	github.com/aws/aws-sdk-go-v2/config v1.26.3
 	github.com/aws/aws-sdk-go-v2/credentials v1.16.14
