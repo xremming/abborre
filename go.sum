@@ -8,6 +8,8 @@ github.com/arran4/golang-ical v0.2.2 h1:rSoNV8A2bKjuiuyZrzzavzAHG82xgudMy/3zpquK
 github.com/arran4/golang-ical v0.2.2/go.mod h1:RqMuPGmwRRwjkb07hmm+JBqcWa1vF1LvVmPtSZN2OhQ=
 github.com/arran4/golang-ical v0.2.3 h1:C4Vj7+BjJBIrAJhHgi6Ku+XUkQVugRq4re5Cqj5QVdE=
 github.com/arran4/golang-ical v0.2.3/go.mod h1:RqMuPGmwRRwjkb07hmm+JBqcWa1vF1LvVmPtSZN2OhQ=
+github.com/arran4/golang-ical v0.2.7 h1:VO7YlVaGupZE15aj6NhUhte/MIfZuoIzkoI71VsG6Gg=
+github.com/arran4/golang-ical v0.2.7/go.mod h1:RqMuPGmwRRwjkb07hmm+JBqcWa1vF1LvVmPtSZN2OhQ=
 github.com/aws/aws-lambda-go v1.41.0 h1:l/5fyVb6Ud9uYd411xdHZzSf2n86TakxzpvIoz7l+3Y=
 github.com/aws/aws-lambda-go v1.41.0/go.mod h1:jwFe2KmMsHmffA1X2R09hH6lFzJQxzI8qK17ewzbQMM=
 github.com/aws/aws-lambda-go v1.42.0 h1:U4QKkxLp/il15RJGAANxiT9VumQzimsUER7gokqA0+c=
