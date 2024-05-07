@@ -15,7 +15,7 @@ require (
 	github.com/rs/xid v1.5.0
 	github.com/rs/zerolog v1.32.0
 	github.com/stretchr/testify v1.9.0
-	go-simpler.org/env v0.11.0
+	go-simpler.org/env v0.12.0
 	golang.org/x/oauth2 v0.20.0
 )
 
