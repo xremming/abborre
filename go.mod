@@ -16,7 +16,7 @@ require (
 	github.com/rs/zerolog v1.33.0
 	github.com/stretchr/testify v1.9.0
 	go-simpler.org/env v0.12.0
-	golang.org/x/oauth2 v0.20.0
+	golang.org/x/oauth2 v0.22.0
 )
 
 require (
