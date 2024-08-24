@@ -12,7 +12,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.7.19
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.32.5
 	github.com/justinas/alice v1.2.0
-	github.com/rs/xid v1.5.0
+	github.com/rs/xid v1.6.0
 	github.com/rs/zerolog v1.33.0
 	github.com/stretchr/testify v1.9.0
 	go-simpler.org/env v0.12.0
