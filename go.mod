@@ -2,7 +2,7 @@ module github.com/xremming/abborre
 
 go 1.21
 
-toolchain go1.23.1
+toolchain go1.23.2
 
 require (
 	github.com/arran4/golang-ical v0.3.1
