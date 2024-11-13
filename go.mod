@@ -10,9 +10,9 @@ require (
 	github.com/aws/aws-sdk-go-v2 v1.32.4
 	github.com/aws/aws-sdk-go-v2/config v1.28.3
 	github.com/aws/aws-sdk-go-v2/credentials v1.17.44
-	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.15.15
-	github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.7.50
-	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.36.5
+	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.15.16
+	github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.7.51
+	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.37.0
 	github.com/justinas/alice v1.2.0
 	github.com/rs/xid v1.6.0
 	github.com/rs/zerolog v1.33.0
